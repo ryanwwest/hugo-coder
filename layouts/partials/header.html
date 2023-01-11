@@ -9,6 +9,18 @@
         <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
       </label>
       <ul class="navigation-list">
+
+        <!-- RWW edits add custom social media code -->
+        <li class="navigation-item">
+<ul style="text-align: center;">
+    <!-- margin is necessary on the first one to offset the 10px between each icon so it is centered -->
+    <a class="button-square" href="https://github.com/ryanwwest"><i class="fa fa-github"></i></a>
+    <a class="button-square" href="https://www.linkedin.com/in/ryanwwest/"><i class="fa fa-linkedin"></i></a>
+    <a class="button-square" href="mailto:ryan@ryanwwest.com"><i class="fa fa-envelope"></i></a>
+    <a class="button-square" href="index.xml"><i class="fa fa-rss"></i></a>
+</ul>
+</li>
+
         {{ with .Site.Menus.main}}
           {{ range sort . }}
             <li class="navigation-item">
